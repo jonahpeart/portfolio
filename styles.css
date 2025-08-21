@@ -220,29 +220,20 @@ background: linear-gradient(180deg, rgba(184, 186, 255, 1) 0%, rgb(232, 237, 255
   cursor: pointer;
 }
 #contact{
-  grid-template-columns: 1fr;
+  display: flex;
+  flex-direction: column;
   padding-bottom: 5vh;
 }
-.contact-logo{
-  width: 65px;
-  height: 100%;
-  border-radius: 0;
-  transition: filter 0.1s ease;
+.badge-base{
+  height: 16rem;
 }
-.contact-logo:hover{
-  cursor: pointer;
-  filter: brightness(150%);
-}
+
 .email-container{
   font-size: 1.5rem;
   justify-self: center;
 }
 .contact-logo-container{
-  display: flex;
-  gap: 4rem;
-  width: 100%;
-  justify-content: center;
-  align-items: center;
+padding-left: 2.5rem;
 }
 
 .logo-reel-container {
