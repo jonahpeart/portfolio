@@ -232,8 +232,13 @@ background: linear-gradient(180deg, rgba(184, 186, 255, 1) 0%, rgb(232, 237, 255
   font-size: 1.5rem;
   justify-self: center;
 }
-.contact-logo-container{
-padding-left: 2.5rem;
+.contact-logo-container a img{
+height: 4rem;
+transition: filter 0.1s ease;
+}
+.contact-logo-container a img:hover{
+  cursor: pointer;
+  filter: brightness(150%);
 }
 
 .logo-reel-container {
